@@ -200,28 +200,7 @@ int main() {
 	}
 
 	fclose(activityFileP);
-
-	//float sum = 0,sum2=0;
-	//for (int i = 0; i < 300; i++) {
-	//	for (int j = 0; j < 278; j++) {
-	//		sum += activity_save[i][j];		//C
-	//		sum2 += activity_save_p[i][j];	//Python
-	//	}
-	//}
-	//printf("%f\n", sum);
-	//printf("%f", sum2);
-
-	//for (int i = 0; i < 300; i++) {
-	//	for (int j = 0; j < 278; j++) {
-	//		if (activity_save[i][j] != activity_save_p[i][j]) {
-	//			printf("%f\n", activity_save[i][j]);
-	//			printf("%f\n", activity_save_p[i][j]);
-	//		}
-	//	}
-	//	printf("\n");
-	//}
-
-
+	
 	//Check AudioPwr
 	FILE* audioPwrFile = fopen("audioPwr[5282 - 5559]-C.csv", "r");
 	if (!audioPwrFile) {
